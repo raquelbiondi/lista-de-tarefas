@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="images/icone.png" alt="ícone papel e lápis">
+        <h1>Lista de Tarefas</h1>
+        <button type="button">Nova tarefa +</button>
+    </header>
+    <form>
+        <input type="text" id="nova-tarefa" required placeholder="Nome da Tarefa"/>
+        <button type="submit">Registrar</button>
+    </form>
+
+        <div id="lista">
+            <ul>
+                <li><input type="checkbox"/> Lavar toda a louça</li>
+                <li><input type="checkbox"/> Responder e-mails</li>
+            </ul>
+        </div>
+            
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="lista.js"></script>
+</body>
+</html>
